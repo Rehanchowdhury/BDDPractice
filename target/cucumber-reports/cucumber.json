@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-19T23:35:51.477Z",
+        "line": 2,
+        "name": "I am testing Google search box",
+        "description": "",
+        "id": "google-home-page;i-am-testing-google-search-box",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4633000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on  Google home page",
+            "match": {
+              "location": "stepdefinitions.GoogleStepDefinitaions.i_am_on_Google_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i click the search box i should  see the cursor",
+            "match": {
+              "location": "stepdefinitions.GoogleStepDefinitaions.i_click_the_search_box_i_should_see_the_cursor()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i will enter the Laptop",
+            "match": {
+              "location": "stepdefinitions.GoogleStepDefinitaions.i_will_enter_the_Laptop()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3266000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I will click the search button",
+            "match": {
+              "location": "stepdefinitions.GoogleStepDefinitaions.i_will_click_the_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google home page",
+    "description": "",
+    "id": "google-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/google.feature",
+    "tags": []
+  }
+]
